@@ -1,10 +1,10 @@
-# 🤖 Project Overview
+#  Project Overview
 
 Hello! Reviewer, I see you have stumbled upon me, read me, well, be astounded, for this is a device that is meant to be used by old people out of touch with technology. 
 
 ---
 
-### 💡 The Problem & Inspiration
+###  The Problem & Inspiration
 * My own grandma struggles to open YouTube on my laptop.
 * But with this and a click of a button, BOOM, the YouTube page is open.
 * Apart from jokes, I just want people out of touch with technology to be able to use it properly.
@@ -12,14 +12,14 @@ Hello! Reviewer, I see you have stumbled upon me, read me, well, be astounded, f
 
 ---
 
-### ⚙️ Key Features
+###  Key Features
 * **One-Click Automation**: Instantly opens target pages like YouTube.
 * **Status Display**: Has a screen to show exactly what the device is doing.
 * **Proximity Activation**: Includes a sensor that turns it on whenever my grandma is near it.
 
 ---
 
-## 🛠️ Hardware Requirements
+##  Hardware Requirements
 
 To build this project, you will need the following components:
 * **Microcontroller**: Arduino, 
@@ -30,9 +30,9 @@ To build this project, you will need the following components:
 
 ---
 
-## 🚀 How It Works & Installation
+##  How It Works & Installation
 
 ### 1. Hardware Setup
-Connect your macropad. 
+Connect your Macropad. 
 * Trigger the screen to wake up when the sensor detects a person nearby.
 * Program the button to send a keyboard shortcut or serial command to your computer when pressed.
