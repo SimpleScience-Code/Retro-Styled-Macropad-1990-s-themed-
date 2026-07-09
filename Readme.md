@@ -5,10 +5,10 @@ Hello! Reviewer, I see you have stumbled upon me, read me, well, be astounded, f
 ---
 
 ###  The Problem & Inspiration
-* My own grandma struggles to open YouTube on my laptop.
+* My own grandma struggles to open websites or apps like YouTube on my laptop.
 * But with this and a click of a button, BOOM, the YouTube page is open.
 * Apart from jokes, I just want people out of touch with technology to be able to use it properly.
-* I want them not to dislike it just because it is complicated.
+* I want them not to dislike it just because it is complicated; I want them to be able to properly get used to it.
 
 ---
 
