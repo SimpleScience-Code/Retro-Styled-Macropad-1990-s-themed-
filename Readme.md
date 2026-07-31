@@ -36,3 +36,13 @@ To build this project, you will need the following components:
 Connect your Macropad. 
 * Trigger the screen to wake up when the sensor detects a person nearby.
 * Program the button to send a keyboard shortcut or serial command to your computer when pressed.
+
+---
+
+### Assembly
+* Make sure you have all the materials.
+* First, take the PCB, then place it inside the shell (the biggest part, looks unfinished)
+* After that, place the PCB with the shell inside the frame. (the one with a beautiful-looking hole for charging and connecting)
+* Then glue the top cover in (the one with and 45mm by 45mm hole in it.)
+* then just place the keycap holder.
+* then pop the keycaps in (With springs)
