@@ -1,4 +1,4 @@
-#Code for the Arduino
+# Code for the Arduino
  ---
 
 #include <Keyboard.h>
