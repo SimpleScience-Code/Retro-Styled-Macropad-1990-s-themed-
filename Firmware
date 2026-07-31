@@ -1,0 +1,81 @@
+Code for the Arduino
+ ---
+
+#include <Keyboard.h>
+
+const int buttonPins[4] = {2, 3, 4, 5};
+
+bool lastState[4];
+
+void setup() {
+
+  Keyboard.begin();
+
+  for(int i = 0; i < 4; i++) {
+    pinMode(buttonPins[i], INPUT_PULLUP);
+    lastState[i] = HIGH;
+  }
+}
+
+void loop() {
+
+  for(int i = 0; i < 4; i++) {
+
+    bool currentState = digitalRead(buttonPins[i]);
+
+    if(lastState[i] == HIGH && currentState == LOW) {
+
+      switch(i) {
+
+        case 0:
+          // Copy
+          Keyboard.press(KEY_LEFT_CTRL);
+          Keyboard.press('c');
+          delay(50);
+          Keyboard.releaseAll();
+          break;
+
+        case 1:
+          // Paste
+          Keyboard.press(KEY_LEFT_CTRL);
+          Keyboard.press('v');
+          delay(50);
+          Keyboard.releaseAll();
+          break;
+
+        case 2:
+          // Undo
+          Keyboard.press(KEY_LEFT_CTRL);
+          Keyboard.press('z');
+          delay(50);
+          Keyboard.releaseAll();
+          break;
+
+        case 3:
+          // Save
+          Keyboard.press(KEY_LEFT_CTRL);
+          Keyboard.press('s');
+          delay(50);
+          Keyboard.releaseAll();
+          break;
+      }
+
+      delay(200);   // debounce
+    }
+
+    lastState[i] = currentState;
+  }
+}
+
+
+Code for your laptop
+
+Keyboard.press(KEY_LEFT_GUI);
+Keyboard.press('r');
+delay(100);
+Keyboard.releaseAll();
+
+delay(200);
+
+Keyboard.print("notepad");
+Keyboard.write(KEY_RETURN);
