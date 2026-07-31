@@ -1,81 +1,48 @@
-# Code for the Arduino
- ---
+#  Project Overview
 
-#include <Keyboard.h>
+Hello! Reviewer, I see you have stumbled upon me, read me, well, be astounded, for this is a device that is meant to be used by old people out of touch with technology. 
 
-const int buttonPins[4] = {2, 3, 4, 5};
+---
 
-bool lastState[4];
+###  The Problem & Inspiration
+* My own grandma struggles to open websites or apps like YouTube on my laptop.
+* But with this and a click of a button, BOOM, the YouTube page is open.
+* Apart from jokes, I just want people out of touch with technology to be able to use it properly.
+* I want them not to dislike it just because it is complicated; I want them to be able to properly get used to it.
 
-void setup() {
+---
 
-  Keyboard.begin();
+###  Key Features
+* **One-Click Automation**: Instantly opens target pages like YouTube.
+* **Status Display**: Has a screen to show exactly what the device is doing.
+* **Proximity Activation**: Includes a sensor that turns it on whenever my grandma is near it.
 
-  for(int i = 0; i < 4; i++) {
-    pinMode(buttonPins[i], INPUT_PULLUP);
-    lastState[i] = HIGH;
-  }
-}
+---
 
-void loop() {
+##  Hardware Requirements
 
-  for(int i = 0; i < 4; i++) {
+To build this project, you will need the following components:
+* **Microcontroller**: Arduino, 
+* **Proximity Sensor**: HC-SR04 Ultrasonic sensor
+* **Display Screen**: OLED display or 16x2 LCD screen
+* **Physical Input**: Tactile push button, or preferably a 3d printer
+* **Connection**: USB cable to connect to the computer
 
-    bool currentState = digitalRead(buttonPins[i]);
+---
 
-    if(lastState[i] == HIGH && currentState == LOW) {
+##  How It Works & Installation
 
-      switch(i) {
+### 1. Hardware Setup
+Connect your Macropad. 
+* Trigger the screen to wake up when the sensor detects a person nearby.
+* Program the button to send a keyboard shortcut or serial command to your computer when pressed.
 
-        case 0:
-          // Copy
-          Keyboard.press(KEY_LEFT_CTRL);
-          Keyboard.press('c');
-          delay(50);
-          Keyboard.releaseAll();
-          break;
+---
 
-        case 1:
-          // Paste
-          Keyboard.press(KEY_LEFT_CTRL);
-          Keyboard.press('v');
-          delay(50);
-          Keyboard.releaseAll();
-          break;
-
-        case 2:
-          // Undo
-          Keyboard.press(KEY_LEFT_CTRL);
-          Keyboard.press('z');
-          delay(50);
-          Keyboard.releaseAll();
-          break;
-
-        case 3:
-          // Save
-          Keyboard.press(KEY_LEFT_CTRL);
-          Keyboard.press('s');
-          delay(50);
-          Keyboard.releaseAll();
-          break;
-      }
-
-      delay(200);   // debounce
-    }
-
-    lastState[i] = currentState;
-  }
-}
-
-
-Code for your laptop
-
-Keyboard.press(KEY_LEFT_GUI);
-Keyboard.press('r');
-delay(100);
-Keyboard.releaseAll();
-
-delay(200);
-
-Keyboard.print("notepad");
-Keyboard.write(KEY_RETURN);
+### Assembly
+* Make sure you have all the materials.
+* First, take the PCB, then place it inside the shell (the biggest part, looks unfinished)
+* After that, place the PCB with the shell inside the frame. (the one with a beautiful-looking hole for charging and connecting)
+* Then glue the top cover in (the one with and 45mm by 45mm hole in it.)
+* then just place the keycap holder.
+* then pop the keycaps in (With springs)
