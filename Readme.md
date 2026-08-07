@@ -62,4 +62,3 @@ Connect your Macropad.
 | Noel 7 in 1 Soldering Iron Kit 25W Gold | Robocraze | 490₹ | $5.14 |
 
 ---
-*Thank you for looking into my project!*
