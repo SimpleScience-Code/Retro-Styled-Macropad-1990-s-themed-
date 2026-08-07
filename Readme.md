@@ -47,18 +47,17 @@ Connect your Macropad.
 * then just place the keycap holder.
 * then pop the keycaps in (With springs)
 
-## BOM
+## Bill of Materials (BOM)
 
 | Component | Source | Price (INR) | Price (USD) |
 | :--- | :--- | :--- | :--- |
-| Arduino Nano R3 Development Board Compatible | Robocraze | 200₹ | $2.10 |
-| 220 Ohm Resistor - (Pack of 10) | Robocraze | 9₹ | $0.094 |
-| 1k Ohm Resistor - (Pack of 10) | Robocraze | 12₹ | $0.13 |
-| 16x2 LCD Display (Blue) | Robocraze | 107₹ | $1.12 |
-| 4-Pins DIP Momentary Square Tactile Push Button Switch (10 Pcs, 6x6mm) | Robocraze | 16₹ | $0.17 |
-| HC-SR04 Ultrasonic Distance Sensor Module | Robocraze | 70₹ | $0.73 |
-| 1.75mm Premium HS PLA+ Filament for 3D Printer (Raven Black) | Robocraze | 789₹ | $8.27 |
+| [Arduino Nano R3 Development Board Compatible](https://robocraze.com/products/uno-smd-board-compatible-with-arduino?_pos=1&_sid=90bf6cff1&_ss=r) | Robocraze | 200₹ | $2.10 |
+| [220 Ohm Resistor - (Pack of 10)](https://robocraze.com/products/220-ohm-resistor-pack-of-10?_pos=1&_sid=015213a2d&_ss=r) | Robocraze | 9₹ | $0.094 |
+| [1k Ohm Resistor - (Pack of 10)](https://robocraze.com/products/1k-resistor-pack-of-10?_pos=1&_sid=cc482150b&_ss=r) | Robocraze | 12₹ | $0.13 |
+| [16x2 LCD Display (Blue)](https://robocraze.com/products/16x2-lcd-display-blue?_pos=1&_sid=0991f9f6f&_ss=r) | Robocraze | 107₹ | $1.12 |
+| [4-Pins DIP Momentary Square Tactile Push Button Switch (10 Pcs, 6x6mm)](https://robocraze.com/products/4-pins-dip-momentary-square-tactile-push-button-switch-10-pieces-6x6x5mm?_pos=1&_sid=db7cd0c1f&_ss=r) | Robocraze | 16₹ | $0.17 |
+| [HC-SR04 Ultrasonic Distance Sensor Module](https://robocraze.com/products/hc-sr-04-ultrasonic-sensor?_pos=1&_sid=7186cb574&_ss=r) | Robocraze | 70₹ | $0.73 |
+| [1.75mm Premium HS PLA+ Filament for 3D Printer (Raven Black)](https://robocraze.com/products/premium-hs-pla-1-75mm-filament-for-3d-printer-snow-white?_pos=1&_sid=317160f1a&_ss=r) | Robocraze | 789₹ | $8.27 |
 | PCB | EasyEDA | 1491.37₹ | $15.63 |
-| Noel 7 in 1 Soldering Iron Kit 25W Gold | Robocraze | 490₹ | $5.14 |
-
+| [Noel 7 in 1 Soldering Iron Kit 25W Gold](https://robocraze.com/products/noel-7-in-1-soldering-iron-kit-25w-gold?_pos=1&_sid=eda6e1cf0&_ss=r) *(Optional)* | Robocraze | 490₹ | $5.14 |
 ---
