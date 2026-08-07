@@ -47,7 +47,7 @@ Connect your Macropad.
 * then just place the keycap holder.
 * then pop the keycaps in (With springs)
 
-##  Bill of Materials (BOM)
+## BOM
 
 | Component | Source | Price (INR) | Price (USD) |
 | :--- | :--- | :--- | :--- |
